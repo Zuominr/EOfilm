@@ -1,0 +1,13 @@
+ <Context docBase="project3" path="/project3" reloadable="true" source="org.eclipse.jst.jee.server:project3">
+
+        <Resource name="jdbc/MovieDB"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="root"
+        password="123456"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/moviedb"
+         maxActive="15"
+         maxIdle="3"/>
+
+</Context>

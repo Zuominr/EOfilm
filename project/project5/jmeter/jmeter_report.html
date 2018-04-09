@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: linen;
+            }
+        
+        
+        td {
+            
+            border-top-style: solid;
+        }
+        </style>
+    </head>
+    <body>
+        
+        <table style="width:100%">
+            <tr style="font-weight:bold; background-color: orange">
+                <td width="300px">Single-instance version cases</td>
+                <td>Graph Results Screenshot</td>
+                <td>Average Query Time(ms)</td>
+                <td>Average Search Servlet Time(ms)</td>
+                <td>Average JDBC Time(ms)</td>
+                <td>Analysis</td>
+            </tr>
+            <tr>
+                <td>Case 1: HTTP/1 thread</td>
+                <td><img src="Main_AWS_graphs/graph_results_case1.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+                <td>10</td>
+                <td>8.594523</td>
+                <td>8.5172287</td>
+                <td>This is a baseline test. This is time under no load.</td>
+            </tr>
+            <tr>
+                <td>Case 2: HTTP/10 threads</td>
+                <td><img src="Main_AWS_graphs/graph_results_case2.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+                <td>18</td>
+                <td>64.224453</td>
+                <td>63.987669</td>
+                <td>This is a baseline test. This is time under load of ten users.</td>
+            </tr>
+            <tr>
+                <td>Case 3: HTTPS/10 threads</td>
+                <td><img src="Main_AWS_graphs/graph_results_case3.png" alt="Graph Results Screenshot Case 3" style="width:304px;height:228px;"></td>
+                <td>32</td>
+                <td>59.987632</td>
+                <td>59.891231</td>
+                <td>This shows that https does not have a large effect on preformace</td>
+            </tr>
+            <tr>
+                <td>Case 4: HTTP/10 threads/No prepared statements</td>
+                <td><img src="Main_AWS_graphs/graph_results_case4.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+                <td>19</td>
+                <td>63.917463</td>
+                <td>63.783642</td>
+                <td>This shows that prepared statements only have a small preformace imporvoment</td>
+            </tr>
+            <tr>
+                <td>Case 5: HTTP/10 threads/No connection pooling</td>
+                <td><img src="Main_AWS_graphs/graph_results_case5.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+                <td>40</td>
+                <td>155.614172</td>
+                <td>155.360524</td>
+                <td>This show that connection pooling increases preformace a great deal.</td>
+            </tr>
+            
+        </table>
+        
+        
+        <table style="width:100%">
+            <tr style="font-weight:bold; background-color: orange">
+                <td width="300px">Scaled version cases</td>
+                <td>Graph Results Screenshot</td>
+                <td>Average Query Time(ms)</td>
+                <td>Average Search Servlet Time(ms)</td>
+                <td>Average JDBC Time(ms)</td>
+                <td>Analysis</td>
+            </tr>
+            <tr>
+                <td>Case 1: HTTP/1 thread</td>
+                <td><img src="LoadBalanceAWS_graphs/graph_results_case1.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+                <td>8</td>
+                <td>8.980223</td>
+                <td>8.701924</td>
+                <td>This is a single baseline test under no load. In this case load balancing should not help</td>
+            </tr>
+            <tr>
+                <td>Case 2: HTTP/10 threads</td>
+                <td><img src="LoadBalanceAWS_graphs/graph_results_case2.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+                <td>12</td>
+                <td>31.223446</td>
+                <td>30.988237</td>
+                <td>This is a single baseline test small load. This shows an increace preformace under loads</td>
+            </tr>
+            <tr>
+                <td>Case 3: HTTP/10 threads/No prepared statements</td>
+                <td><img src="LoadBalanceAWS_graphs/graph_results_case4.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+                <td>13</td>
+                <td>30.119873</td>
+                <td>29.913612</td>
+                <td>This shows that prepared statements only have a small preformace imporvoment</td>
+            </tr>
+            <tr>
+                <td>Case 4: HTTP/10 threads/No connection pooling</td>
+                <td><img src="LoadBalanceAWS_graphs/graph_results_case4.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+                <td>27</td>
+                <td>104.271465</td>
+                <td>104.030594</td>
+                <td>This show that connection pooling increases preformace a great deal.</td>
+            </tr>
+            
+        </table>
+        
+    </body>
+</html>
+

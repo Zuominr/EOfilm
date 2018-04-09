@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="xml_parsing"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_161]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="lib" path="/Users/zuomin/122b/apache-tomcat-8.5.28/javax.json-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/zuomin/122b/apache-tomcat-8.5.28/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/zuomin/122b/apache-tomcat-8.5.28/recaptcha4j-0.0.7.jar"/>
+	<classpathentry kind="lib" path="/Users/zuomin/122b/apache-tomcat-8.5.28/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project3/WebContent/WEB-INF/lib/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project3/WebContent/WEB-INF/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

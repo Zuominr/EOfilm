@@ -1,0 +1,18 @@
+01-Mar-2018 09:52:42.766 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+01-Mar-2018 09:52:42.766 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+01-Mar-2018 09:52:55.038 信息 [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 09:54:16.070 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/project3'
+01-Mar-2018 09:54:16.611 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 10:01:48.710 信息 [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/project33'
+01-Mar-2018 10:01:49.245 信息 [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 10:01:58.059 信息 [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 12:07:04.956 信息 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+01-Mar-2018 12:07:04.956 信息 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+01-Mar-2018 12:07:04.959 信息 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 12:08:51.268 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+01-Mar-2018 12:08:51.268 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+01-Mar-2018 12:08:51.272 信息 [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 12:08:59.051 信息 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 12:09:11.703 信息 [https-jsse-nio-8443-exec-4] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+01-Mar-2018 12:09:57.512 信息 [https-jsse-nio-8443-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: undeploy: Undeploying web application at '/project3'
+01-Mar-2018 12:09:58.040 信息 [https-jsse-nio-8443-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'

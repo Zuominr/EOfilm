@@ -1,0 +1,400 @@
+2018-03-15 18:21:12,317 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2018-03-15 18:21:12,349 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-03-15 18:21:12,350 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-03-15 18:21:12,356 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: java.version=1.8.0_161
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: os.arch=x86_64
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: os.version=10.13.3
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: Max memory     =1908932608
+2018-03-15 18:21:12,357 INFO o.a.j.JMeter: Available Processors =4
+2018-03-15 18:21:12,367 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2018-03-15 18:21:12,367 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2018-03-15 18:21:12,367 INFO o.a.j.JMeter: JMeterHome=/Users/zuomin/122b/apache-jmeter-4.0
+2018-03-15 18:21:12,368 INFO o.a.j.JMeter: user.dir  =/Users/zuomin/122b/apache-jmeter-4.0/bin
+2018-03-15 18:21:12,368 INFO o.a.j.JMeter: PWD       =/Users/zuomin/122b/apache-jmeter-4.0/bin
+2018-03-15 18:21:12,369 INFO o.a.j.JMeter: IP: 169.234.104.51 Name: dhcp-v104-051.mobile.uci.edu FullName: dhcp-v104-051.mobile.uci.edu
+2018-03-15 18:21:14,438 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-03-15 18:21:14,471 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-03-15 18:21:14,471 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-03-15 18:21:14,590 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-03-15 18:21:15,411 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-03-15 18:21:15,411 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-03-15 18:21:17,660 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-15 18:21:17,660 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-15 18:21:17,660 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-15 18:21:17,661 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-15 18:21:17,661 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-03-15 18:21:17,661 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-03-15 18:21:18,075 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-03-15 18:21:18,076 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/zuomin/122b/apache-jmeter-4.0/bin/proxyserver.jks
+2018-03-15 18:21:18,230 INFO o.a.j.s.FileServer: Default base='/Users/zuomin/122b/apache-jmeter-4.0/bin'
+2018-03-15 18:21:18,571 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-03-15 18:21:18,571 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-03-15 18:21:18,571 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-03-15 18:21:18,571 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-03-15 18:21:28,124 INFO o.a.j.g.a.Load: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Main AWS.jmx
+2018-03-15 18:21:28,124 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 18:21:28,295 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-03-15 18:21:28,317 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-03-15 18:21:28,319 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-03-15 18:21:28,322 INFO o.a.j.s.SaveService: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Main AWS.jmx
+2018-03-15 18:21:28,459 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 18:22:17,604 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-03-15 18:22:17,610 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-15 18:22:17,610 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-15 18:22:17,632 INFO o.a.j.t.TestPlan: added /Users/zuomin/122b/apache-jmeter-4.0/bin/ApacheJMeter.jar to classpath
+2018-03-15 18:22:17,639 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-03-15 18:22:17,822 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main AWS(1 thread)
+2018-03-15 18:22:17,822 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Main AWS(1 thread).
+2018-03-15 18:22:17,822 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:22:17,823 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-03-15 18:22:17,827 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-03-15 18:22:17,827 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Main AWS(1 thread) to finish before starting next group
+2018-03-15 18:22:17,848 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(1 thread) 1-1
+2018-03-15 18:22:17,853 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@892366261
+2018-03-15 18:22:17,872 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = dhcp-v104-051.mobile.uci.edu
+2018-03-15 18:22:17,877 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-03-15 18:25:40,565 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(1 thread) 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:25:40,571 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(1 thread) 1-1
+2018-03-15 18:25:40,572 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Main AWS(10 threads http)
+2018-03-15 18:25:40,573 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Main AWS(10 threads http).
+2018-03-15 18:25:40,573 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:25:40,573 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:25:40,578 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-1
+2018-03-15 18:25:40,579 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2018-03-15 18:25:40,580 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Main AWS(10 threads http) to finish before starting next group
+2018-03-15 18:25:40,580 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1418944359
+2018-03-15 18:25:40,680 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-2
+2018-03-15 18:25:40,782 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-3
+2018-03-15 18:25:40,878 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-4
+2018-03-15 18:25:40,982 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-5
+2018-03-15 18:25:41,082 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-6
+2018-03-15 18:25:41,180 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-7
+2018-03-15 18:25:41,282 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-8
+2018-03-15 18:25:41,386 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-9
+2018-03-15 18:25:41,481 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads http) 2-10
+2018-03-15 18:27:19,373 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:19,373 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:19,378 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-3
+2018-03-15 18:27:19,378 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-10
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-9
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-2
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-5
+2018-03-15 18:27:20,625 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-7
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-8
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-1
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-6
+2018-03-15 18:27:20,626 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads http) 2-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:27:20,627 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads http) 2-4
+2018-03-15 18:27:20,627 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Main AWS(10 threads with https)
+2018-03-15 18:27:20,627 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Main AWS(10 threads with https).
+2018-03-15 18:27:20,627 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:27:20,628 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:27:20,634 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2018-03-15 18:27:20,634 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Main AWS(10 threads with https) to finish before starting next group
+2018-03-15 18:27:20,634 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-1
+2018-03-15 18:27:20,634 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1150147300
+2018-03-15 18:27:20,640 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-03-15 18:27:20,647 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-03-15 18:27:20,647 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-03-15 18:27:20,735 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-2
+2018-03-15 18:27:20,839 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-3
+2018-03-15 18:27:20,895 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-03-15 18:27:20,896 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-03-15 18:27:20,896 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-03-15 18:27:20,936 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-4
+2018-03-15 18:27:21,034 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-5
+2018-03-15 18:27:21,137 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-6
+2018-03-15 18:27:21,239 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-7
+2018-03-15 18:27:21,339 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-8
+2018-03-15 18:27:21,437 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-9
+2018-03-15 18:27:21,539 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(10 threads with https) 3-10
+2018-03-15 18:29:04,448 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:04,453 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-6
+2018-03-15 18:29:05,283 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,284 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,291 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-9
+2018-03-15 18:29:05,291 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-10
+2018-03-15 18:29:05,285 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,292 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-3
+2018-03-15 18:29:05,284 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,292 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-7
+2018-03-15 18:29:05,284 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,292 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-4
+2018-03-15 18:29:05,283 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,293 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-2
+2018-03-15 18:29:05,316 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,317 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-8
+2018-03-15 18:29:05,359 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,359 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-1
+2018-03-15 18:29:05,359 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWS(10 threads with https) 3-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:05,359 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(10 threads with https) 3-5
+2018-03-15 18:29:05,359 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Main AWSMain AWS(10 threads with no PS's)
+2018-03-15 18:29:05,360 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Main AWSMain AWS(10 threads with no PS's).
+2018-03-15 18:29:05,360 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:29:05,360 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:29:05,368 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2018-03-15 18:29:05,368 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Main AWSMain AWS(10 threads with no PS's) to finish before starting next group
+2018-03-15 18:29:05,369 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-1
+2018-03-15 18:29:05,372 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@684063410
+2018-03-15 18:29:05,470 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-2
+2018-03-15 18:29:05,573 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-3
+2018-03-15 18:29:05,671 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-4
+2018-03-15 18:29:05,771 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-5
+2018-03-15 18:29:05,874 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-6
+2018-03-15 18:29:05,969 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-7
+2018-03-15 18:29:06,073 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-8
+2018-03-15 18:29:06,169 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-9
+2018-03-15 18:29:06,273 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no PS's) 4-10
+2018-03-15 18:29:09,237 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,237 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-1
+2018-03-15 18:29:09,246 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,246 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-7
+2018-03-15 18:29:09,250 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,250 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-2
+2018-03-15 18:29:09,280 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,280 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-4
+2018-03-15 18:29:09,282 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,282 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-8
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-10
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-5
+2018-03-15 18:29:09,285 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-9
+2018-03-15 18:29:09,288 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,288 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no PS's) 4-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:29:09,289 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-3
+2018-03-15 18:29:09,289 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no PS's) 4-6
+2018-03-15 18:29:09,289 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Main AWSMain AWS(10 threads with no conection Pooling)
+2018-03-15 18:29:09,290 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Main AWSMain AWS(10 threads with no conection Pooling).
+2018-03-15 18:29:09,290 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:29:09,290 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:29:09,299 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-1
+2018-03-15 18:29:09,301 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@726221342
+2018-03-15 18:29:09,311 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2018-03-15 18:29:09,312 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-03-15 18:29:09,402 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-2
+2018-03-15 18:29:09,501 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-3
+2018-03-15 18:29:09,602 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-4
+2018-03-15 18:29:09,703 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-5
+2018-03-15 18:29:09,815 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-6
+2018-03-15 18:29:09,915 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-7
+2018-03-15 18:29:10,015 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-8
+2018-03-15 18:29:10,114 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-9
+2018-03-15 18:29:10,214 INFO o.a.j.t.JMeterThread: Thread started: Main AWSMain AWS(10 threads with no conection Pooling) 5-10
+2018-03-15 18:30:55,478 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:55,478 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:55,478 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-3
+2018-03-15 18:30:55,478 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-9
+2018-03-15 18:30:55,479 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:55,479 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-4
+2018-03-15 18:30:55,485 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:55,486 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-2
+2018-03-15 18:30:55,488 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:55,488 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-8
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-7
+2018-03-15 18:30:56,521 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Main AWSMain AWS(10 threads with no conection Pooling) 5-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:30:56,522 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-6
+2018-03-15 18:30:56,522 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-1
+2018-03-15 18:30:56,522 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-10
+2018-03-15 18:30:56,523 INFO o.a.j.t.JMeterThread: Thread finished: Main AWSMain AWS(10 threads with no conection Pooling) 5-5
+2018-03-15 18:30:56,523 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-03-15 18:30:56,523 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@684063410
+2018-03-15 18:30:56,524 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1418944359
+2018-03-15 18:30:56,524 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1150147300
+2018-03-15 18:30:56,526 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@892366261
+2018-03-15 18:30:56,527 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@726221342
+2018-03-15 18:30:56,530 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-03-15 18:38:41,050 INFO o.a.j.g.a.Load: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Load balance AWS.jmx
+2018-03-15 18:38:41,057 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 18:38:41,057 INFO o.a.j.s.SaveService: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Load balance AWS.jmx
+2018-03-15 18:38:41,096 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 18:42:09,697 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-03-15 18:42:09,702 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-15 18:42:09,705 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-03-15 18:42:09,966 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Load balance AWS(1 thread)
+2018-03-15 18:42:09,966 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Load balance AWS(1 thread).
+2018-03-15 18:42:09,966 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:42:09,966 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-03-15 18:42:09,967 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-03-15 18:42:09,968 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Load balance AWS(1 thread) to finish before starting next group
+2018-03-15 18:42:09,968 INFO o.a.j.t.JMeterThread: Thread started: Load balance AWS(1 thread) 1-1
+2018-03-15 18:42:09,970 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1247886886
+2018-03-15 18:42:16,649 INFO o.a.j.g.a.Start: Stopping test
+2018-03-15 18:42:16,675 INFO o.a.j.t.JMeterThread: Stopping: Load balance AWS(1 thread) 1-1
+2018-03-15 18:42:16,675 WARN o.a.j.t.JMeterThread: Interrupting: Load balance AWS(1 thread) 1-1 sampler: Test Search
+2018-03-15 18:42:16,679 INFO o.a.j.t.JMeterThread: Thread finished: Load balance AWS(1 thread) 1-1
+2018-03-15 18:42:16,679 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2018-03-15 18:42:16,680 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-03-15 18:42:16,680 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1247886886
+2018-03-15 18:42:16,680 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-03-15 18:49:28,260 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-03-15 18:49:28,262 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-15 18:49:28,263 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-03-15 18:49:28,443 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Load balance AWS(1 thread)
+2018-03-15 18:49:28,444 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Load balance AWS(1 thread).
+2018-03-15 18:49:28,444 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:49:28,444 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-03-15 18:49:28,444 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-03-15 18:49:28,444 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Load balance AWS(1 thread) to finish before starting next group
+2018-03-15 18:49:28,444 INFO o.a.j.t.JMeterThread: Thread started: Load balance AWS(1 thread) 1-1
+2018-03-15 18:49:28,445 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1740416400
+2018-03-15 18:52:54,558 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Load balance AWS(1 thread) 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:52:54,565 INFO o.a.j.t.JMeterThread: Thread finished: Load balance AWS(1 thread) 1-1
+2018-03-15 18:52:54,566 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : balance AWS(10 threads http)
+2018-03-15 18:52:54,566 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group balance AWS(10 threads http).
+2018-03-15 18:52:54,566 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:52:54,566 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:52:54,569 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-1
+2018-03-15 18:52:54,571 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1911986916
+2018-03-15 18:52:54,581 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2018-03-15 18:52:54,581 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: balance AWS(10 threads http) to finish before starting next group
+2018-03-15 18:52:54,673 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-2
+2018-03-15 18:52:54,773 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-3
+2018-03-15 18:52:54,875 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-4
+2018-03-15 18:52:54,974 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-5
+2018-03-15 18:52:55,075 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-6
+2018-03-15 18:52:55,177 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-7
+2018-03-15 18:52:55,282 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-8
+2018-03-15 18:52:55,381 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-9
+2018-03-15 18:52:55,483 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads http) 2-10
+2018-03-15 18:53:49,081 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,081 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-7
+2018-03-15 18:53:49,124 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,124 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-9
+2018-03-15 18:53:49,142 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,142 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-8
+2018-03-15 18:53:49,155 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,155 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-3
+2018-03-15 18:53:49,498 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,498 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-10
+2018-03-15 18:53:49,506 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,506 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-6
+2018-03-15 18:53:49,707 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,707 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-5
+2018-03-15 18:53:49,709 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,710 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-4
+2018-03-15 18:53:49,781 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,781 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-1
+2018-03-15 18:53:49,824 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads http) 2-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:53:49,824 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads http) 2-2
+2018-03-15 18:53:49,825 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : balance AWSMain AWS(10 threads with no PS's)
+2018-03-15 18:53:49,825 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group balance AWSMain AWS(10 threads with no PS's).
+2018-03-15 18:53:49,825 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:53:49,825 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:53:49,829 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-1
+2018-03-15 18:53:49,829 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@64141861
+2018-03-15 18:53:49,842 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2018-03-15 18:53:49,842 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: balance AWSMain AWS(10 threads with no PS's) to finish before starting next group
+2018-03-15 18:53:49,931 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-2
+2018-03-15 18:53:50,033 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-3
+2018-03-15 18:53:50,137 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-4
+2018-03-15 18:53:50,237 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-5
+2018-03-15 18:53:50,342 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-6
+2018-03-15 18:53:50,444 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-7
+2018-03-15 18:53:50,544 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-8
+2018-03-15 18:53:50,645 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-9
+2018-03-15 18:53:50,745 INFO o.a.j.t.JMeterThread: Thread started: balance AWSMain AWS(10 threads with no PS's) 3-10
+2018-03-15 18:54:44,125 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,125 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-1
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-5
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-3
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,126 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-7
+2018-03-15 18:54:44,127 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-4
+2018-03-15 18:54:44,127 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-2
+2018-03-15 18:54:44,132 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,132 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-6
+2018-03-15 18:54:44,137 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,137 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-8
+2018-03-15 18:54:44,543 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,543 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWSMain AWS(10 threads with no PS's) 3-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:54:44,543 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-10
+2018-03-15 18:54:44,543 INFO o.a.j.t.JMeterThread: Thread finished: balance AWSMain AWS(10 threads with no PS's) 3-9
+2018-03-15 18:54:44,543 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : balance AWS(10 threads with no conection Pooling)
+2018-03-15 18:54:44,543 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group balance AWS(10 threads with no conection Pooling).
+2018-03-15 18:54:44,544 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 18:54:44,544 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=10 ramp-up=1 perThread=100.0 delayedStart=false
+2018-03-15 18:54:44,546 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-1
+2018-03-15 18:54:44,548 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@151238917
+2018-03-15 18:54:44,557 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2018-03-15 18:54:44,557 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-03-15 18:54:44,649 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-2
+2018-03-15 18:54:44,753 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-3
+2018-03-15 18:54:44,854 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-4
+2018-03-15 18:54:44,955 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-5
+2018-03-15 18:54:45,056 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-6
+2018-03-15 18:54:45,160 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-7
+2018-03-15 18:54:45,260 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-8
+2018-03-15 18:54:45,357 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-9
+2018-03-15 18:54:45,461 INFO o.a.j.t.JMeterThread: Thread started: balance AWS(10 threads with no conection Pooling) 4-10
+2018-03-15 18:55:38,561 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-9, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,561 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-3, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,566 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-9
+2018-03-15 18:55:38,567 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-3
+2018-03-15 18:55:38,673 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-4, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,673 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-4
+2018-03-15 18:55:38,673 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-2, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,673 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-2
+2018-03-15 18:55:38,726 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,726 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-1
+2018-03-15 18:55:38,729 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-8, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:38,730 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-8
+2018-03-15 18:55:39,170 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-10, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:39,170 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-10
+2018-03-15 18:55:39,171 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-5, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:39,171 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-7, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:39,171 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread balance AWS(10 threads with no conection Pooling) 4-6, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2018-03-15 18:55:39,171 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-7
+2018-03-15 18:55:39,171 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-6
+2018-03-15 18:55:39,172 INFO o.a.j.t.JMeterThread: Thread finished: balance AWS(10 threads with no conection Pooling) 4-5
+2018-03-15 18:55:39,173 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-03-15 18:55:39,173 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1740416400
+2018-03-15 18:55:39,173 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@64141861
+2018-03-15 18:55:39,174 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@151238917
+2018-03-15 18:55:39,175 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@1911986916
+2018-03-15 18:55:39,177 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-03-15 20:10:06,078 INFO o.a.j.g.a.Load: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Main AWS.jmx
+2018-03-15 20:10:06,080 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 20:10:06,081 INFO o.a.j.s.SaveService: Loading file: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/Main AWS.jmx
+2018-03-15 20:10:06,175 INFO o.a.j.s.FileServer: Set new base='/Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter'
+2018-03-15 20:10:46,284 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-03-15 20:10:46,291 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-15 20:10:46,293 INFO o.a.j.t.TestPlan: added /Users/zuomin/122b/apache-jmeter-4.0/bin/ApacheJMeter.jar to classpath
+2018-03-15 20:10:46,294 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-03-15 20:10:46,715 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main AWS(1 thread)
+2018-03-15 20:10:46,716 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Main AWS(1 thread).
+2018-03-15 20:10:46,716 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-15 20:10:46,716 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-03-15 20:10:46,716 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-03-15 20:10:46,716 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Main AWS(1 thread) to finish before starting next group
+2018-03-15 20:10:46,718 INFO o.a.j.t.JMeterThread: Thread started: Main AWS(1 thread) 1-1
+2018-03-15 20:10:46,718 INFO o.a.j.s.FileServer: Stored: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt Alias: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@928618171
+2018-03-15 20:18:07,454 INFO o.a.j.g.a.Start: Stopping test
+2018-03-15 20:18:07,474 INFO o.a.j.t.JMeterThread: Stopping: Main AWS(1 thread) 1-1
+2018-03-15 20:18:07,474 WARN o.a.j.t.JMeterThread: Interrupting: Main AWS(1 thread) 1-1 sampler: Test Search
+2018-03-15 20:18:07,476 INFO o.a.j.t.JMeterThread: Thread finished: Main AWS(1 thread) 1-1
+2018-03-15 20:18:07,476 INFO o.a.j.e.StandardJMeterEngine: Test stopped - no more thread groups will be started
+2018-03-15 20:18:07,477 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-03-15 20:18:07,477 INFO o.a.j.s.FileServer: Close: /Users/zuomin/mycs122b-projects/cs122b-winter18-team-90/project5/jmeter/query_load.txt@928618171
+2018-03-15 20:18:07,478 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

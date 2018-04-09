@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Like Predicate Explanation</title>
+</head>
+<body>
+
+Zuomin Ren and Rui Cao <br/>
+Project2<br/>
+Like predicate Explanation<br/>
+<hr/>
+We use the "LIKE" method to search movies from moviedb by title, year, director and stars'name. <br/>
+The searching example is as follows:<br/>
+'%AN%': All strings that contain the pattern 'AN' anywhere. <br/>
+For example, 'LOS ANGELES' and 'SAN FRANCISCO' would both satisfy the condition.<br/>
+We apply this method in all search field.<br/>
+<hr/>
+The corresponding code is as follows:<br/>
+<br/>private void add_ps_parameters(PreparedStatement ps, searchparameters curParams) throws SQLException {
+		<br/>int count = 1;
+		<br/>if (!"".equals(curParams.getTitle())) {
+		<br/>	ps.setObject(count, (curParams.getFromBrowse() ? "" : "%") + curParams.getTitle() +  "%");
+		<br/>	++count;
+		<br/>}
+		<br/>if (!"".equals(curParams.getYear())) {
+		<br/>	ps.setObject(count, "%" + curParams.getYear()+ "%");
+		<br/>	++count;
+		<br/>}
+		<br/>if (!"".equals(curParams.getDirector())) {
+		<br/>	ps.setObject(count,"%" + curParams.getDirector()+ "%");
+		<br/>	++count;
+		<br/>}
+		<br/>if (!"".equals(curParams.getStarName())) {
+		<br/>	ps.setObject(count, "%" +curParams.getStarName()+ "%");
+		<br/>	++count;
+			
+		<br/>} 
+		
+<br/>	} 
+<br/>
+<hr/>
+We also use "LIKE" method in function "browse movie by title" on "browse" page.<br/>
+The code is as follows:<br/>
+<br/>String statementString = "SELECT * FROM movies";
+<br/>		if (!"".equals(letterOfTitle)) {
+<br/>			statementString += " WHERE  title LIKE \'" + letterOfTitle + "%\' ";
+<br/>		}
+<br/>		statementString += " ORDER BY title ";
+<br/>		if (limit > 0) {
+<br/>			statementString += " LIMIT " + limit + " OFFSET " + (start > 0 ? start : 0);
+<br/>		}
+<br/>		statementString += ";";
+<br/>
+</body>
+</html>

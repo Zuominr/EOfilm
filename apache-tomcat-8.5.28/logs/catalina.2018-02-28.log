@@ -1,0 +1,57 @@
+28-Feb-2018 22:39:28.986 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.28
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 23:10:25 UTC
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.28.0
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.3
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Feb-2018 22:39:28.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/zuomin/122b/apache-tomcat-8.5.28
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/zuomin/122b/apache-tomcat-8.5.28
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/zuomin/122b/apache-tomcat-8.5.28/conf/logging.properties
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Feb-2018 22:39:28.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/zuomin/122b/apache-tomcat-8.5.28
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/zuomin/122b/apache-tomcat-8.5.28
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/zuomin/122b/apache-tomcat-8.5.28/temp
+28-Feb-2018 22:39:28.998 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zuomin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Feb-2018 22:39:29.121 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 22:39:29.143 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 22:39:29.148 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 22:39:29.149 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Feb-2018 22:39:29.150 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 503 ms
+28-Feb-2018 22:39:29.177 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Feb-2018 22:39:29.177 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.28
+28-Feb-2018 22:39:29.184 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/Users/zuomin/122b/apache-tomcat-8.5.28/conf/Catalina/localhost/project3.xml]
+28-Feb-2018 22:39:29.209 警告 [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:project3' did not find a matching property.
+28-Feb-2018 22:39:29.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/Users/zuomin/122b/apache-tomcat-8.5.28/conf/Catalina/localhost/project3.xml] has finished in [358] ms
+28-Feb-2018 22:39:29.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/docs]
+28-Feb-2018 22:39:29.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/docs] has finished in [15] ms
+28-Feb-2018 22:39:29.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/manager]
+28-Feb-2018 22:39:29.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/manager] has finished in [81] ms
+28-Feb-2018 22:39:29.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/examples]
+28-Feb-2018 22:39:29.917 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/examples] has finished in [277] ms
+28-Feb-2018 22:39:29.917 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/ROOT]
+28-Feb-2018 22:39:29.930 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/ROOT] has finished in [13] ms
+28-Feb-2018 22:39:29.931 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/host-manager]
+28-Feb-2018 22:39:29.945 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/host-manager] has finished in [14] ms
+28-Feb-2018 22:39:29.947 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Feb-2018 22:39:29.954 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Feb-2018 22:39:29.956 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 806 ms
+28-Feb-2018 22:39:41.173 信息 [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/TomcatFormReCaptcha.war]
+28-Feb-2018 22:39:41.306 信息 [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 22:39:41.309 信息 [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/TomcatFormReCaptcha.war] has finished in [135] ms
+28-Feb-2018 22:40:16.393 信息 [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project2.war]
+28-Feb-2018 22:40:16.523 信息 [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Feb-2018 22:40:17.950 信息 [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project2.war] has finished in [1,558] ms
+28-Feb-2018 22:41:28.409 信息 [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project33.war]
+28-Feb-2018 22:41:29.443 信息 [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project33.war] has finished in [1,033] ms
+28-Feb-2018 22:41:34.897 信息 [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/project33]
+28-Feb-2018 22:41:43.789 信息 [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/project3]
+28-Feb-2018 22:46:17.519 信息 [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project.war]
+28-Feb-2018 22:46:18.666 信息 [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project.war] has finished in [1,147] ms
+28-Feb-2018 22:46:51.421 信息 [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project33.war]
+28-Feb-2018 22:46:52.314 信息 [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/zuomin/122b/apache-tomcat-8.5.28/webapps/project33.war] has finished in [893] ms

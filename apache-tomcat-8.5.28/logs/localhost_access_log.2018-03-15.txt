@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Mar/2018:15:44:58 -0700] "GET / HTTP/1.1" 200 11452
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/login HTTP/1.1" 200 3130
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/resources/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/js/ajaxStuff.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:44:59 -0700] "GET /project5/resources/backg.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:45:09 -0700] "POST /project5/loginhandle HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Mar/2018:15:45:09 -0700] "GET /project5/mainpage HTTP/1.1" 200 2412
